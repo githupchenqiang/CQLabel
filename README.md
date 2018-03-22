@@ -1,6 +1,6 @@
 # CQLabel
 一个根据字和行数自动自适应高度的Label
-<font color=#00ffff>自动计算高度,宽度,自适应高度的建议label,初始化后默认行间距为3,字间距为1,根据传入的origionFit决定是以宽度适配还是以高度适配,进行自适应</font>
+<font color=#FF1493 size=22>自动计算高度,宽度,自适应高度的建议label,初始化后默认行间距为3,字间距为1,根据传入的origionFit决定是以宽度适配还是以高度适配,进行自适应</font>
 
 ```
 C_Label *Blabel = [[C_Label alloc]initWithFrame:CGRectMake(0, 300, 300, 100) withType:FitWidth];
