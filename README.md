@@ -49,9 +49,9 @@ Xlabel.textColor = [UIColor blackColor];
 
 **上面 Tlabel和Xlabel 在设置numberOfLines不同字体上下顶的间隙不同,在这种情况下也仅在行间距很小的情况下会有有差异,numberOfLines为0时上下间隙会非常的小,不为1的时候间隙会大一点,存在label的安全距离**
 
-![这是一个效果图](Simulator Screen Shot 2018年3月22日 18.21.37.png)
+
 ```
-    
+![这是一个效果图](/label.gif)    
 
 
 
