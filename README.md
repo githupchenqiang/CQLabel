@@ -1,6 +1,7 @@
 # CQLabel
 一个根据字和行数自动自适应高度的Label
-`
+
+```
 C_Label *Tlabel = [[C_Label alloc]initWithFrame:CGRectMake(0, 200, 300, 100) withType:FitHeight];
 Tlabel.font = [UIFont systemFontOfSize:10];
 Tlabel.numberOfLines = 1;
@@ -45,4 +46,4 @@ Xlabel.textColor = [UIColor blackColor];
 [Xlabel setLabelSpace:3 margionX:1];
 [self.view addSubview:Xlabel];
 
-`
+```
