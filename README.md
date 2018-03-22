@@ -1,5 +1,6 @@
 # CQLabel
 一个根据字和行数自动自适应高度的Label
+** 自动计算高度,宽度,自适应高度的建议label,初始化后默认行间距为3,字间距为1,根据传入的origionFit决定是以宽度适配还是以高度适配,进行自适应**
 
 ```
 C_Label *Blabel = [[C_Label alloc]initWithFrame:CGRectMake(0, 300, 300, 100) withType:FitWidth];
@@ -48,9 +49,10 @@ Xlabel.textColor = [UIColor blackColor];
 
 **上面 Tlabel和Xlabel 在设置numberOfLines不同字体上下顶的间隙不同,在这种情况下也仅在行间距很小的情况下会有有差异,numberOfLines为0时上下间隙会非常的小,不为1的时候间隙会大一点,存在label的安全距离**
 
+![这是一个效果图](Simulator Screen Shot 2018年3月22日 18.21.37.png)
 ```
     
 
-![这是一个效果图](/Simulator Screen Shot 2018年3月22日 18.21.37.png)
+
 
 
