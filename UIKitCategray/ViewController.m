@@ -15,6 +15,8 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -37,21 +39,7 @@
     //    [label setLabelSpace:5 margionX:1];
     [self.view addSubview:Tlabel];
     
-    
-    
-    
-    C_Label *Blabel = [[C_Label alloc]initWithFrame:CGRectMake(0, 300, 300, 100) withType:FitWidth];
-    Blabel.font = [UIFont systemFontOfSize:10];
-    Blabel.numberOfLines = 3;
-    Blabel.text = @"这擅自这是才这是才能擅自这是才这这擅自这是才这是才能擅自这是才这这擅自这是才这是才能擅自这是才这这擅自这是才这是才能擅自这是才这";
-    [Blabel setContentMode:UIViewContentModeTop];
-    Blabel.textColor = [UIColor blackColor];
-        [Blabel setLabelSpace:10 margionX:1.5];
-    [self.view addSubview:Blabel];
-    
-    
-    
-    
+
     C_Label *Clabel = [[C_Label alloc]initWithFrame:CGRectMake(0, 400, 300, 100) withType:FitWidth];
     Clabel.font = [UIFont systemFontOfSize:10];
     Clabel.numberOfLines = 0;

@@ -8,12 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+//先用UILabel的 sizeThatFits 计算出最佳大小。然后用高度/lineHeight就是行数，lineHeight为UIFont的属性
+//
+//label.numberOfLines = 0;
+//
+//[label sizeToFit];
+//
+//
+//CGFloat labelHeight = [label sizeThatFits:CGSizeMake(label.frame.size.width, MAXFLOAT)].height;
+//
+//NSInteger count = (labelHeight) / label.font.lineHeight;
+
+
 typedef enum : NSUInteger {
     FitWidth = 1,
     FitHeight = 2,
   
 }origionFit;
-
 
 typedef void(^LabelActionBlock)(UILabel *label);
 
